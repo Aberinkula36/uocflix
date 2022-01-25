@@ -1,0 +1,24 @@
+.popup {
+	display: none;
+	position: fixed;
+	margin-top: 10px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: aliceblue;
+	padding: 2em;
+	width: 870px;
+	font-size: 20px;
+	border: 2px;
+	border-color: navy; /*new*/
+	border-style: double; /*new*/
+	border-radius: 15px; /*new*/
+	box-shadow: 1px 1px 3px #292929; /*new*/
+	text-shadow: 0 0.1px #660000; /*new*/
+	-webkit-text-stroke: 1px black; /*new*/
+	background-size: 100%; /*new*/
+}
+
+.popup.visible {
+	display: block;
+}

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>UOC FLIX. Portal de películas</title>
+<meta name="description" content="Página de inicio UOC Film"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+<link href="css/popup.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<ul>
+			<li><a href="index.html"><img src="imgs/logo1.svg" class="logo" alt="logo"></a></li>
+			<li><a href="index.html"><img src="imgs/imago.svg" class="imago" alt="imago"></a></li>
+		</ul>
+
+			<nav>
+				<ul>
+					
+					<li><a href="index.html">Inicio</a>
+				
+					</li>
+					<li><a href="#">Más populares</a>
+
+					</li>
+					<li><a href="#">Sobre nosotros</a>
+
+					</li>
+				</ul>
+			</nav>
+
+		<div class="intro"><i>Bienvenido a UOC Flix, tu portal de información y visionado de películas.</i></div>
+		
+	</header>
+
+		<label for="toggle">&#9776;</label>
+			<input type="checkbox" id="toggle">
+				<div class="menu">
+					<a href="index.html">Inicio</a>
+					<a href="#">Más populares</a>
+					<a href="#">Sobre nosotros</a>
+				</div>
+
+	<div class="cuerpo">
+
+		<div class="maspopulares">MÁS POPULARES</div>
+
+		<div class="portadas">
+			<ul id="populars"></ul>
+		</div>
+
+		<div class="masvaloradas">MÁS VALORADAS</div>
+
+		<div class="portadas">
+			<ul id="top_rated"></ul>
+		</div>
+
+	</div>
+
+	<!-- POPUP -->
+	
+	<div class='popup'>
+
+		<table>
+
+			<tr>
+				<td colspan="2">
+					<button id="close">X</button>
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>
+					Título
+				</td>
+				<td id="title">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Año
+				</td>
+				<td id="year">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Imagen principal
+				</td>
+				<td>
+					<img id="image">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Descripción completa
+				</td>
+				<td id="description">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Géneros
+				</td>
+				<td id="genre">
+					
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Valoración media
+				</td>
+				<td id="rate">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					Imágenes de la película
+				</td>
+				<td>
+					<img id="pictures">
+				</td>
+			</tr>
+
+
+		</table>
+
+	</div>
+
+<footer>
+
+
+	<div class="fondo">
+
+		<div class="pie">
+
+			Práctica final, Tecnologías y herramientas para el desarrollo web, 2019. <b>José Miguel Sáez Teruel</b>
+
+		</div>
+	</div>
+	
+
+</footer>
+
+</body>
+
+</html>

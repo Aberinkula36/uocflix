@@ -1,0 +1,272 @@
+/*INDEX*/
+
+body{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+#close{
+	float: right;
+}
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+header li{
+	list-style: none;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.logo{
+	width: 230px;
+	margin-top: 10px;
+	float: left;
+}
+
+.imago{
+	display: none;
+}
+
+nav{
+	float: right;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a:hover{
+	color: #800000;
+	transition: 0.4s;
+}
+
+label{
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: none;
+}
+
+#toggle{
+	display: none;
+}
+
+.menu{
+	display: none;
+}
+
+.menu a{
+	display: block;
+	text-decoration: none;
+}
+
+.intro{
+	text-align: center;
+	margin-top: 150px;
+	font-size: 20px;
+}
+
+.cuerpo{
+	height: auto;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.maspopulares{
+	text-align: center;
+	font-size: 30px;
+	color: #cc0000;
+}
+
+h3{
+	font-size: 25px;
+	color: #800000;	
+}
+
+.portadas{
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: -50px;
+}
+
+.portadas ul{
+	list-style: none;
+}
+
+.portadas ul li:hover{
+	color: #800000;
+	transition: 0.5s; /*new*/
+	margin-left: 2px;
+	padding-left: 1px;
+	opacity: 0.8; /*new*/
+}
+
+#populars{
+	text-align: center;
+}
+
+#image{
+	width: 150px;
+}
+
+#top_rated{
+	text-align: center;
+}
+
+.popup td{
+	padding: 0px 10px 20px 10px;
+}
+
+#title{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.masvaloradas{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #cc0000;
+}
+
+footer{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	padding-bottom: -50px;
+}
+
+.fondo{
+	background-color: black;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.pie{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	padding-left: 80px;
+}
+
+@media (max-width: 550px) {
+
+	header{
+		width: 380px;
+	}
+
+	.logo{
+		display: none;
+	}
+
+	.imago{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 40px;
+		margin-bottom: -100px;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav ul li a{
+		margin-left: 25px;
+	}
+
+	label{
+		display: block;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.intro{
+		max-width: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 150px;
+		font-size: 20px;
+	}
+
+	.menu{
+		text-align: center;
+		width: 100%;
+	}
+
+	.menu a{
+		display: block;
+		border-bottom: 1px solid lightgray;
+		padding: 10px 10px 10px 10px;
+		color: #3672b3;
+	}
+
+	#toggle:checked + .menu{
+		display: block;
+		text-decoration: none;
+	}
+
+	.cuerpo{
+		max-width: 380px;
+	}
+
+	.portadas{
+		font-size: 18px;
+		text-align: center;
+		width: 340px;
+		padding-left: 50px;
+	}
+
+	.maspopulares{
+		font-size: 18px;
+		color: #cc0000;
+	}
+
+	#image{
+		width: 75px;
+	}
+
+	#pictures{
+		width: 75px;
+	}
+
+	td{
+		margin: 2px;
+	}
+
+	.popup.visible{
+		font-size: 13px;
+		width: 300px;
+	}
+
+	.masvaloradas{
+		text-align: center;
+		font-size: 15px;
+		color: #cc0000;
+	}
+
+	.fondo{
+		width: 360px;
+	}
+
+	.pie{
+		margin-left: -50px;
+	}
+
+}
